@@ -1,0 +1,39 @@
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.box{
+  display: block;
+    /* width: 10%;
+    min-width: 200px; */
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+
+  .box-1{
+    background: #666;
+    flex-basis: 90px;
+    order: 2;
+  }
+
+  .box-2{
+    background: #888;
+    flex-grow: 1;
+    order: 4;
+  }
+
+  .box-3{
+    background: #aaa;
+    flex-basis: 90px;
+    order: 3;
+  }
+
+  .box-4{
+    background: #ccc;
+    flex-grow: 1;
+    order: 1;
+  }
